@@ -7,7 +7,6 @@
  * Return: Always (Success)
  *
  */
-
 int main(void)
 {
 	int n;
@@ -20,7 +19,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-        printf("%d is zero\n", n);
+	printf("%d is zero\n", n);
 	}
 	else
 	{
