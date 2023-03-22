@@ -8,13 +8,21 @@
 void print_alphabet_x10(void)
 
 {
-	int i;
 	char c;
+	int i;
 
-	for (i = 1 ; i <= 10 ; i++)
+	i = 0;
+
+	while (i <= 10)
 	{
-		for (c = 'a' ; c <= 'z' ; c++)
-			_putchar(i);
-		_putchar('\n');
+	c = 'a';
+	while (c <= 'z')
+	{
+	_putchar(c);
+	c++;
+	}
+
+	_putchar('\n');
+	i++;
 	}
 }
