@@ -1,11 +1,11 @@
 include "main.h"
 
 /**
-* main - Test function for positive or negative
+* main - Test functions that prints if interger is for positive or negative
 * Return: 0
 */
-
 int main(void)
+
 {
 	int i;
 
