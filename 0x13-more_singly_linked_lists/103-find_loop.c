@@ -1,9 +1,9 @@
-#include "lists.s"
+#include "lists.h"
 
 /**
  * find_listint_loop - finds the loop in a linked list
  * @head: the head of the linked list
- * Return: Address of the node where the loop starts, or NULL if there is no loop
+ * Return: Address of the node where the loop starts, NULL if there's no loop
  */
 listint_t *find_listint_loop(listint_t *head)
 {
@@ -24,9 +24,8 @@ listint_t *find_listint_loop(listint_t *head)
 		return (NULL);
 	while (duck != goose)
 	{
-		duck = goose->next;
+		duck = duck->next;
 		goose = goose->next;
 	}
 	return (goose);
 }
-
