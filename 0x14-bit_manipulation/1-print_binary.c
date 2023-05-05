@@ -8,10 +8,10 @@
 
 void print_binary(unsigned long int n)
 {
-	int b, count = 0
+	int b, count = 0;
 	unsigned long int current;
 
-	for (b = 63; b >= 0; b--)
+	for (b = 89; b >= 0; b--)
 	{
 		current = n >> b;
 
